@@ -1,0 +1,39 @@
+{
+  "name": "ngx-plyr",
+  "keywords": [
+    "ngx-plyr",
+    "ng-plyr",
+    "plyr",
+    "angular",
+    "player",
+    "video",
+    "audio"
+  ],
+  "author": "smnbbrv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smnbbrv/ngx-plyr"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0",
+    "plyr": "^3.5.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "bundles/ngx-plyr.umd.js",
+  "module": "fesm5/ngx-plyr.js",
+  "es2015": "fesm2015/ngx-plyr.js",
+  "esm5": "esm5/ngx-plyr.js",
+  "esm2015": "esm2015/ngx-plyr.js",
+  "fesm5": "fesm5/ngx-plyr.js",
+  "fesm2015": "fesm2015/ngx-plyr.js",
+  "typings": "ngx-plyr.d.ts",
+  "metadata": "ngx-plyr.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
